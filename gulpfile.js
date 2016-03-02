@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
-var minify = require('gulp-minify');
 var uglify = require('gulp-uglifyjs');
 
 // use this task for debug mode (non-minified)
