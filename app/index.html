@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" ng-app="seed">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="seed" ng-strict-di>
 <head>
     <title>Seed</title>
     
@@ -43,7 +43,9 @@
     <script src="../bower_components/angular-bootstrap-datetimepicker/src/js/datetimepicker.js"></script>
     <script src="../bower_components/angular-bootstrap-datetimepicker/src/js/datetimepicker.templates.js"></script>
     
-    <!-- concatinated files use: gulp scripts task to concat -->
-    <script src="dist/main.js"></script>
+    <!-- min file: use gulp uglify -->
+    <script src="dist/app.min.js"></script>
+    <!-- debug file: use gulp concat -->
+    <!--<script src="dist/app.js"></script>-->
 </body>
 </html>
