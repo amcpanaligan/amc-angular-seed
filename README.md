@@ -5,3 +5,18 @@ cd C:\your\git\clone\directory <br />
 'bower-install' to install angular, bootstrap, and other dependencies <br />
 'gulp scripts' to concat all js/application source files as one js file<br />
 GGWP!! <br />
+
+# Components
+ * a0-angular-storage
+ * angular
+ * angular-auto-validate
+ * angular-block-ui
+ * angular-bootstrap
+ * angular-bootstrap-datetimepicker
+ * angular-datatables
+ * angular-ui-router
+ * bootstrap
+ * datatables
+ * font-awesome
+ * jquery
+ * moment
