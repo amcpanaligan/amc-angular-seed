@@ -4,7 +4,8 @@ I got tired of re-downloading these 3rd party directives everytime I create an a
 cd C:\your\git\clone\directory <br />
 'npm-install' to install gulp dependencies <br />
 'bower-install' to install angular, bootstrap, and other dependencies <br />
-'gulp scripts' to concat all js/application source files as one js file<br />
+'gulp concat' to concat all js/application source files as one js file (debug mode)<br />
+'gulp uglify' to minify all js/application source files (performance-wise, loads faster) <br />
 GGWP!! <br />
 
 # Components
