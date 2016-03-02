@@ -1,2 +1,2 @@
 # amc-angular-seed
-My commonly needed modules/directives when creating an angularjs app
+I got tired of "bowering" these 3rd party directives everytime. So I created a seed app for them. :-)

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="seed">
+<head>
+    <title>Seed</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- add favicon syntax -->
+    
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bower_components/datatables/media/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="../bower_components/angular-block-ui/dist/angular-block-ui.min.css">
+    <link rel="stylesheet" href="../bower_components/angular-bootstrap-datetimepicker/src/css/datetimepicker.css">
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- inject partials -->
+    <div ui-view></div>
+    
+    <!-- bootstrap and jQuery first -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bower_components/moment/min/moment.min.js"></script>
+    
+    <!-- js 3rd party references first -->
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="../bower_components/datatables/media/js/dataTables.bootstrap.min.js"></script>
+    
+    
+    <!-- angular modules/dependencies/directives references -->
+    <script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="../bower_components/angular-datatables/dist/angular-datatables.min.js"></script>
+    <script src="../bower_components/angular-datatables/dist/plugins/bootstrap/angular-datatables.bootstrap.min.js"></script>
+    <script src="../bower_components/a0-angular-storage/dist/angular-storage.min.js"></script>
+    <script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="../bower_components/angular-block-ui/dist/angular-block-ui.min.js"></script>
+    <script src="../bower_components/angular-auto-validate/dist/jcs-auto-validate.min.js"></script>
+    <script src="../bower_components/angular-bootstrap-datetimepicker/src/js/datetimepicker.js"></script>
+    <script src="../bower_components/angular-bootstrap-datetimepicker/src/js/datetimepicker.templates.js"></script>
+    
+    <!-- concatinated files use: gulp scripts task to concat -->
+    <script src="dist/main.js"></script>
+</body>
+</html>
